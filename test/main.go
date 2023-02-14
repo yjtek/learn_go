@@ -2,10 +2,17 @@ package main
 
 import (
 	"fmt"
-	"test/subdir"
+
+	"github.com/yjtek/learn_go/test/subdir"
 )
 
 func main() {
 	fmt.Println("test123")
-	subdir.SubdirPrint()
+
+	test := 1
+
+	if test == 1 {
+		subdir.SubdirPrint()
+	}
+
 }
